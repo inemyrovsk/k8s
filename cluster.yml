@@ -1,0 +1,7 @@
+- hosts: masters
+  roles:
+    - master_node_setup
+
+- hosts: slaves
+  roles:
+    - worker_node_setup

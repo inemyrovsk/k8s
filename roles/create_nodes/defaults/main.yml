@@ -1,0 +1,30 @@
+---
+# defaults file for kubernetes.instance
+
+# AWS region eg: ap-south-1(Mumbai)
+aws_region: ap-south-1
+
+# AWS AMI ID for Instance
+aws_ami: ami-08f63db601b82ff5f
+
+# AWS Instance Type for Instance
+aws_instance_type: t2.micro
+
+# Subnet where Instance to be launched
+subnet_id: subnet-00566450d0ea4c288
+
+# Security group to be attached with instance
+security_group_id: sg-7a400518
+
+# Key pair for the instance
+key: ansible-key
+
+# Instance name
+name:
+  - K8S_Master 
+  - K8S_Worker1
+  - K8S_Worker2
+
+# Access Key and Secret Key for authentication
+access_key: AXXXXXXXXXXXXXX
+secret_key: XXXXXXXXXXXXXXXXXXX

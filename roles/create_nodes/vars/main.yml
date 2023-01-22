@@ -1,0 +1,14 @@
+---
+# vars file for kubernetes.instance
+aws_region: eu-central-1
+aws_ami: ami-0a261c0e5f51090b1
+aws_instance_type: t2.micro
+subnet_id: subnet-0d9706890875811a0
+security_group_id: sg-0f54d7b161d83277e
+key: k8s
+name:
+  - K8S_Master 
+  - K8S_Worker1
+  - K8S_Worker2
+access_key: AKIASAWMLX72REYT5U3E
+secret_key: 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
